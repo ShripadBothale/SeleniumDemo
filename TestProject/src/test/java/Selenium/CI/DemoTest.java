@@ -12,9 +12,8 @@ public class DemoTest {
 		WebDriver driver =new FirefoxDriver();
 		  String baseUrl = "http://en.wikipedia.org/wiki/Main_Page";
 		  driver.get(baseUrl);
-		  //String expectedTitle = "Welcome to JPetStore 6";
-		        //String actualTitle = "";
 		  driver.findElement(By.xpath(".//*[@id='searchInput']")).sendKeys("software testing");
 		  driver.findElement(By.xpath("//*[@id='searchButton']")).click();
+		  driver.close();
 	}
 }
