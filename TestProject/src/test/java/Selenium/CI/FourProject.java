@@ -18,8 +18,7 @@ public class FourProject {
 		  driver.findElement(By.xpath("//*[@id='LoginBox1_txtLogin']")).sendKeys("AutoExistingUser");
 		  driver.findElement(By.xpath("//*[@id='LoginBox1_txtPassword']")).sendKeys("123456");
 		  driver.findElement(By.xpath("//*[@id='LoginBox1_btnLogin']")).click();
-		  //driver.findElement(By.xpath("//*[text()='Logout']")).click();
-		  
-//		  driver.close();
+		  //driver.findElement(By.xpath("//*[text()='Logout']")).click();	  
+		 //driver.close();
 }
 }
