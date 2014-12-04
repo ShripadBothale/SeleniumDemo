@@ -10,16 +10,19 @@
    <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
+        <scope>test</scope>
         <version>2.44.0</version>
     </dependency> 
  <dependency>
 	<groupId>junit</groupId>
 	<artifactId>junit</artifactId>
+	<scope>test</scope>
 	<version>4.4</version>
 </dependency>
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-server</artifactId>
+    <scope>test</scope>
     <version>2.44.0</version>
 </dependency>
    </dependencies>
