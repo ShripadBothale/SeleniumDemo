@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumCI.DemoTest" duration-ms="68012" started-at="2014-12-08T10:27:10Z" finished-at="2014-12-08T10:28:18Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="68012" started-at="2014-12-08T10:27:10Z" finished-at="2014-12-08T10:28:18Z">
+      <class name="SeleniumCI.DemoTest">
+        <test-method status="PASS" signature="Democlass()[pri:0, instance:SeleniumCI.DemoTest@ed48578]" name="Democlass" duration-ms="67934" started-at="2014-12-08T15:57:10Z" finished-at="2014-12-08T15:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Democlass -->
+      </class> <!-- SeleniumCI.DemoTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- SeleniumCI.DemoTest -->
+</testng-results>
