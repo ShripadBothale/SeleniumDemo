@@ -16,6 +16,5 @@ public class DemoTest {
 		  driver.findElement(By.xpath(".//*[@id='searchInput']")).sendKeys("software testing");
 		  driver.findElement(By.xpath("//*[@id='searchButton']")).click();
 		  driver.close();  
-		  
 }
 }
